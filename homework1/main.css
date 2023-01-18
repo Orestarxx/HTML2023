@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.supernaturalPhoto{
+    width: 400px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+#SemHolder, #DinHolder, #CastielHolder{
+    display: flex;
+    flex-direction: column;
+    background:gray;
+    margin-top: 10px;
+}
+.headWinchester{
+    margin-left: 5px;
+}
+.characterImg{
+    width: 200px;
+    height: 200px;
+}
+
+
+

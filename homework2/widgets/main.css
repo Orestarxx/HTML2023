@@ -1,0 +1,43 @@
+.father, .header, .middle, .foot{
+    width: 100%;
+}
+.father{
+    height: 1000px;
+}
+.header, .middle, .foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 300px;
+}
+.middle{
+    height: 200px;
+}
+.foot{
+    height: 500px;
+}
+.box-header, .box-foot{
+    width: 40%;
+    height: 80%;
+    background-color: darkslateblue;
+    font-size: 35px;
+}
+.middle-box-holder{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-middle{
+    height: 100%;
+    width: 30%;
+    background-color: darkslateblue;
+    font-size: 20px;
+}
+.box-header, .box-foot, .box-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

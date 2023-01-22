@@ -1,0 +1,57 @@
+.father{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.cardsHolder{
+    width: 88%;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 450px;
+    border: 1px solid;
+}
+.iconHolder{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h2Holder{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pHolder{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.buttonHolder{
+    width: 100%;
+    height: 20%;
+}
+.pHolder, .buttonHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}
+button{
+    width: 40%;
+    height: 50px;
+    background-color: green;
+    font-size: 20px;
+}

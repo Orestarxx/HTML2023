@@ -1,0 +1,26 @@
+.father{
+    width: 100%;
+    height: 600px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 90%;
+    height: 90%;
+    border: 1px solid;
+}
+.cardsHolder{
+    width: 100%;
+    height: 33%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cards{
+    width: 40%;
+    height: 60%;
+    border: 1px solid;
+}

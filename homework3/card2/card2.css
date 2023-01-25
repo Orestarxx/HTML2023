@@ -1,0 +1,64 @@
+.father{
+    width: 100%;
+    height: 700px;
+}
+.holder{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+.cards{
+    width: 30%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.circleHolder{
+    width: 100%;
+    height: 20%;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 50% ;
+    position: relative;
+    bottom: 50% ;
+    background-color: white;
+}
+.head{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content:center;
+}
+.info{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.father,
+.circleHolder,
+.circle,
+.info,
+.buttonHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+button{
+    width: 50%;
+    height: 50px;
+}
+button:hover{
+   background-color: violet;
+}
